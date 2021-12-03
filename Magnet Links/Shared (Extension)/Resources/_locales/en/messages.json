@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is Magnet Links. You should tell us what your extension does here.",
+        "message": "Allows for magnet links to be passed to Put.io",
         "description": "Description of what the extension does."
     }
 }
