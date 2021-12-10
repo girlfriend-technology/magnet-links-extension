@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Magnet Links",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Allows for magnet links to be passed to Put.io",
+        "description": "Description of what the extension does."
+    }
+}
