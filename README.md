@@ -18,5 +18,8 @@ This is not affiliated with Put.io
 ## Folder Structure
 
 - `'Magnet Links'` - the Xcode project for iOS and Mac
+- `firefox` - The Firefox build
+- `chrome` - The Edge and Chrome build
+
 
 [icon]: https://github.com/girlfriend-technology/magnet-links-extension/raw/main/Magnet%20Links/Shared%20(Extension)/Resources/images/icon-128.png "App Icon"
