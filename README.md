@@ -14,6 +14,7 @@ This is not affiliated with Put.io
 - [Safari for iOS and Mac](https://apps.apple.com/us/app/magnet-links/id1598258908)
 - [Firefox for Desktop and Android](https://addons.mozilla.org/addon/magnet-links/)
 - [Chrome](https://chrome.google.com/webstore/detail/fkioalmkhgkhojppkapnidbnaecnnkfo)
+- [Edge](https://microsoftedge.microsoft.com/addons/detail/bmdmgkgpnjgmgcpmgnphgihlekjgnapf)
 
 
 ## Folder Structure
