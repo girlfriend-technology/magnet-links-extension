@@ -4,7 +4,7 @@
 
     "name": "Magnet Links",
     "description": "Open Magnet Links in Put.io",
-    "version": "1.0",
+    "version": "1.1",
 
     "icons": {
         "48": "images/icon-48.png",
