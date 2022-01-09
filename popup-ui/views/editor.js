@@ -31,14 +31,12 @@ const Main = () => {
     <>
       <Label>
         Select a mode:
-        <Select
-          selected={data.mode.name}
-          onChange={handleModeChange}
-        >
+        <Select onChange={handleModeChange}>
           {map(modes, ({ name }) => (
             <option
               key={name}
               value={name}
+              selected={name === data.mode.name}
             >
               {name}
             </option>
