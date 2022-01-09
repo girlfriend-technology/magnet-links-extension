@@ -1,18 +1,16 @@
-import { useContext } from 'react'
-import { Context } from '../utils/context'
 import Header from '../components/header'
 import Layout from '../components/layout'
 import Text from '../components/text'
+import Editor from './editor'
 
 const Main = () => {
-  const { isEditing } = useContext(Context)
-
   return (
     <Layout>
       <Header />
       <Text>
-        Replace words and links
+        When a webpage has a link to a magnet uri scheme, Magnet Links will point it to your choice of website, such as Put.io, or your clipboard.
       </Text>
+      <Editor />
     </Layout>
   )
 }

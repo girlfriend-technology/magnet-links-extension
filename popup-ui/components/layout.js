@@ -12,7 +12,7 @@ const Layout = ({ children, className = cx, ...props }) => (
             color: #fff;
             background: #000;
           }
-          input {
+          input, select {
             color: #000;
             background: #fff;
           }

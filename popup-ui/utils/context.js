@@ -2,8 +2,10 @@ import { createContext, useState, useEffect } from 'react'
 import { getStorage, setStorage } from './storage'
 import modes from '../constants/modes'
 import has from 'lodash/has'
+
 const Context = createContext({})
-const Provider = ({ children, data: initialData = {} }) => {
+
+const Provider = ({ children, data: initialData = { mode: modes[0]} }) => {
   const [data, setData] = useState(initialData)
 
   useEffect(() => {

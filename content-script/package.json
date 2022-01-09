@@ -1,0 +1,20 @@
+{
+    "name": "content",
+    "umd:main": "./dist/content.js",
+    "source": "src/index.js",
+    "scripts": {
+        "build": "microbundle -f umd --no-sourcemap",
+        "copy-all": "npm run copy-safari && npm run copy-chrome && npm run copy-firefox",
+        "copy-chrome": "cp dist/* '../chrome/'",
+        "copy-firefox": "cp dist/* '../firefox/'",
+        "copy-safari": "cp dist/* '../Magnet Links/Shared (Extension)/Resources'",
+        "dev": "npm run build -- -w",
+        "lint": "standard src",
+        "postbuild": "npm run copy-all"
+    },
+    "devDependencies": {
+        "lodash": "^4.17.21",
+        "microbundle": "^0.14.2",
+        "standard": "^16.0.4"
+    }
+}

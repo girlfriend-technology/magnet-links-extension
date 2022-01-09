@@ -1,6 +1,5 @@
 {
     "manifest_version": 3,
-    "permissions": [ ],
     "default_locale": "en",
 
     "name": "Magnet Links",
@@ -21,13 +20,14 @@
     }],
 
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "popup/index.html",
         "default_icon": {
             "16": "images/toolbar-icon-16.png",
             "19": "images/toolbar-icon-19.png",
             "32": "images/toolbar-icon-32.png",
             "38": "images/toolbar-icon-38.png"
         }
-    }
+    },
 
+    "permissions": [ "storage" ]
 }

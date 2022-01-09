@@ -12,14 +12,20 @@
 .AppleDesktop
 .AppleDouble
 .build/
+.cache
 .com.apple.timemachine.donotpresent
 .DocumentRevisions-V100
 .DS_Store
+.env
+.env.build
 .fseventsd
 .LSOverride
+.next/
+.now
 .Spotlight-V100
 .TemporaryItems
 .Trashes
+.vercel
 .VolumeIcon.icns
 *.dSYM
 *.dSYM.zip
@@ -37,8 +43,10 @@
 /*.gcno
 build/
 Carthage/Build/
+coverage/
 Dependencies/
 DerivedData/
+dist
 fastlane/Preview.html
 fastlane/report.xml
 fastlane/screenshots/**/*.png
@@ -46,6 +54,8 @@ fastlane/test_output
 Icon
 iOSInjectionProject/
 Network Trash Folder
+node_modules/
+out/
 playground.xcworkspace
 Temporary Items
 timeline.xctimeline
