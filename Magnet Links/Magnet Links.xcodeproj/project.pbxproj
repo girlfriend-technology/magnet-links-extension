@@ -37,12 +37,8 @@
 		6149332427581C9D0015609E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 614932D827581C9C0015609E /* manifest.json */; };
 		6149332727581C9D0015609E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 614932DA27581C9C0015609E /* content.js */; };
 		6149332827581C9D0015609E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 614932DA27581C9C0015609E /* content.js */; };
-		6149332927581C9D0015609E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 614932DB27581C9C0015609E /* popup.html */; };
-		6149332A27581C9D0015609E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 614932DB27581C9C0015609E /* popup.html */; };
-		6149332B27581C9D0015609E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 614932DC27581C9C0015609E /* popup.css */; };
-		6149332C27581C9D0015609E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 614932DC27581C9C0015609E /* popup.css */; };
-		6149332D27581C9D0015609E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 614932DD27581C9C0015609E /* popup.js */; };
-		6149332E27581C9D0015609E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 614932DD27581C9C0015609E /* popup.js */; };
+		61B32E44278CC93900EDBFC2 /* popup in Resources */ = {isa = PBXBuildFile; fileRef = 61B32E43278CC93900EDBFC2 /* popup */; };
+		61B32E45278CC93900EDBFC2 /* popup in Resources */ = {isa = PBXBuildFile; fileRef = 61B32E43278CC93900EDBFC2 /* popup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,9 +95,6 @@
 		614932D727581C9C0015609E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		614932D827581C9C0015609E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		614932DA27581C9C0015609E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		614932DB27581C9C0015609E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		614932DC27581C9C0015609E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		614932DD27581C9C0015609E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		614932E227581C9C0015609E /* Magnet Links.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magnet Links.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		614932E527581C9C0015609E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		614932E727581C9C0015609E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +110,7 @@
 		6149330A27581C9D0015609E /* Magnet Links Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Magnet Links Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6149330F27581C9D0015609E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6149331027581C9D0015609E /* Magnet Links.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Magnet Links.entitlements"; sourceTree = "<group>"; };
+		61B32E43278CC93900EDBFC2 /* popup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = popup; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,13 +191,11 @@
 		614932D527581C9C0015609E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				61B32E43278CC93900EDBFC2 /* popup */,
 				614932D627581C9C0015609E /* _locales */,
 				614932D727581C9C0015609E /* images */,
 				614932D827581C9C0015609E /* manifest.json */,
 				614932DA27581C9C0015609E /* content.js */,
-				614932DB27581C9C0015609E /* popup.html */,
-				614932DC27581C9C0015609E /* popup.css */,
-				614932DD27581C9C0015609E /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -341,7 +333,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					614932E127581C9C0015609E = {
 						CreatedOnToolsVersion = 13.1;
@@ -410,13 +402,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6149332B27581C9D0015609E /* popup.css in Resources */,
-				6149332927581C9D0015609E /* popup.html in Resources */,
+				61B32E44278CC93900EDBFC2 /* popup in Resources */,
 				6149332127581C9D0015609E /* images in Resources */,
 				6149332327581C9D0015609E /* manifest.json in Resources */,
 				6149331F27581C9D0015609E /* _locales in Resources */,
 				6149332727581C9D0015609E /* content.js in Resources */,
-				6149332D27581C9D0015609E /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +414,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6149332C27581C9D0015609E /* popup.css in Resources */,
-				6149332A27581C9D0015609E /* popup.html in Resources */,
+				61B32E45278CC93900EDBFC2 /* popup in Resources */,
 				6149332227581C9D0015609E /* images in Resources */,
 				6149332427581C9D0015609E /* manifest.json in Resources */,
 				6149332027581C9D0015609E /* _locales in Resources */,
 				6149332827581C9D0015609E /* content.js in Resources */,
-				6149332E27581C9D0015609E /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +638,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -681,7 +669,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -719,7 +707,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -757,7 +745,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -778,6 +766,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Magnet Links.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54UV554W6E;
@@ -792,7 +781,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -810,6 +799,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Magnet Links.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54UV554W6E;
@@ -824,7 +814,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -845,6 +835,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Magnet Links.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54UV554W6E;
@@ -859,7 +850,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -881,6 +872,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Magnet Links.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54UV554W6E;
@@ -895,7 +887,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
