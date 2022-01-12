@@ -1,6 +1,6 @@
 # Magnet Links extension
 
-_Open Magnet Links in Put.io_
+_Open Magnet Links in Put.io and more_
 
 ![icon][icon]
 
